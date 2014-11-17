@@ -1,0 +1,61 @@
+\documentclass[10pt]{article}
+\usepackage{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{amsmath} 
+\usepackage{amssymb}
+\usepackage[ngerman]{babel}
+\usepackage{blindtext}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+
+\begin{document}
+\begin{titlepage}
+\title{Mein Latex Dokument}
+\author{Martin Jehle}
+\date{\today}
+\maketitle
+
+\end{titlepage}
+\bigskip
+
+\noindent \Huge 1. Das ist der erste Abschnitt\\
+\normalsize \medskip
+
+\noindent Hier kann auch blablabla stehen.
+\bigskip
+
+\noindent \Huge 2. Tabelle
+\normalsize \medskip
+\begin{center}
+\begin{tabular}{c|c|c|c}
+ & Punkte erhalten & Punkte möglich & \% \\ 
+\hline 
+Aufgabe 1 & 2 & 1 & 50 \\ 
+Aufgabe 2 & 3 & 3 & 100 \\ 
+Aufgabe 3 & 3 & 3 & 100 \\ 
+\end{tabular}\medskip
+
+Tabelle 1: Diese Tabelle kann auch Werte enthalten 
+\end{center}
+\bigskip
+
+\noindent \Huge 3. Formeln \normalsize \medskip
+
+\noindent \Large a) Pythagoras\\
+\medskip \normalsize
+
+\noindent Der Satz des Pythagoras errechnet sich wie folgt: $a^2+b2=c^2$. Daraus können wir die Länge der Hypothenuse wie folgt berechnen
+$c=\sqrt{a^2+b^2}$.
+\medskip
+
+\noindent \Large b) Summen\\
+\medskip \normalsize
+
+\noindent Wir können auch die Formel für eine Summe angeben:
+\begin{equation}
+ s=\sum_{i=1}^ni = \frac{n \cdot (n+1)}{2}
+\end{equation}
+\end{document}
